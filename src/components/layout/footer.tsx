@@ -4,7 +4,7 @@ import {
   Phone,
   Clock,
   Heart,
-  Wheelchair,
+  Accessibility,
   UtensilsCrossed,
 } from "lucide-react";
 
@@ -27,7 +27,7 @@ export function Footer() {
   
   const highlightItems = [
     { Icon: Heart, text: "LGBTQ+ friendly" },
-    { Icon: Wheelchair, text: "Wheelchair-accessible" },
+    { Icon: Accessibility, text: "Wheelchair-accessible" },
   ]
 
   return (
