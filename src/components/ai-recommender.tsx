@@ -1,6 +1,7 @@
 "use client";
 
-import { useFormState, useFormStatus } from "react-dom";
+import { useActionState } from "react";
+import { useFormStatus } from "react-dom";
 import { getRecommendation } from "@/app/actions";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
@@ -25,7 +26,7 @@ function SubmitButton() {
 }
 
 export function AiRecommender() {
-  const [state, formAction] = useFormState(getRecommendation, initialState);
+  const [state, formAction] = useActionState(getRecommendation, initialState);
 
   return (
     <Card className="mx-auto mt-8 max-w-2xl">

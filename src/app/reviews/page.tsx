@@ -1,6 +1,7 @@
 "use client";
 
-import { useFormState, useFormStatus } from "react-dom";
+import { useActionState } from "react";
+import { useFormStatus } from "react-dom";
 import { useState } from "react";
 import { REVIEWS } from "@/lib/data";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -28,7 +29,7 @@ function SubmitButton() {
 }
 
 function ReviewForm() {
-  const [state, formAction] = useFormState(submitReview, initialState);
+  const [state, formAction] = useActionState(submitReview, initialState);
   const [rating, setRating] = useState(0);
   const [hoverRating, setHoverRating] = useState(0);
 

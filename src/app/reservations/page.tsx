@@ -1,6 +1,7 @@
 "use client";
 
-import { useFormState, useFormStatus } from "react-dom";
+import { useActionState } from "react";
+import { useFormStatus } from "react-dom";
 import { submitReservation } from "@/app/actions";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -30,7 +31,7 @@ function SubmitButton() {
 }
 
 export default function ReservationsPage() {
-  const [state, formAction] = useFormState(submitReservation, initialState);
+  const [state, formAction] = useActionState(submitReservation, initialState);
 
   // Generate available times - in a real app, this would come from an API
   const availableTimes = ["11:30 AM", "12:00 PM", "12:30 PM", "1:00 PM", "1:30 PM", "5:00 PM", "5:30 PM", "6:00 PM", "6:30 PM", "7:00 PM", "7:30 PM", "8:00 PM"];
