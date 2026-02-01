@@ -1,3 +1,100 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-1",
+      "description": "A rustic and cozy restaurant exterior at dusk.",
+      "imageUrl": "https://images.unsplash.com/photo-1727743112062-a5551d96cfc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxyZXN0YXVyYW50JTIwZXh0ZXJpb3J8ZW58MHx8fHwxNzY5ODQ1MzEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "restaurant exterior"
+    },
+    {
+      "id": "drunken-coyote-burger",
+      "description": "Close up of a juicy Drunken Coyote Burger.",
+      "imageUrl": "https://images.unsplash.com/photo-1632898657953-f41f81bfa892?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxnb3VybWV0JTIwYnVyZ2VyfGVufDB8fHx8MTc2OTkwMDgwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gourmet burger"
+    },
+    {
+      "id": "sweet-potato-fries",
+      "description": "A basket of crispy sweet potato fries.",
+      "imageUrl": "https://images.unsplash.com/photo-1727303600939-b63d2ffc53d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzd2VldCUyMHBvdGF0byUyMGZyaWVzfGVufDB8fHx8MTc2OTk0NjkzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "sweet potato fries"
+    },
+    {
+      "id": "hamburger-and-fries",
+      "description": "A classic hamburger with a side of french fries.",
+      "imageUrl": "https://images.unsplash.com/photo-1586540480250-e3a0717298b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxoYW1idXJnZXIlMjBmcmllc3xlbnwwfHx8fDE3Njk5NDY5MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hamburger fries"
+    },
+    {
+      "id": "bacon-cheeseburger",
+      "description": "A bacon cheeseburger with crispy bacon.",
+      "imageUrl": "https://images.unsplash.com/photo-1603508102971-03777763fdf2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxiYWNvbiUyMGNoZWVzZWJ1cmdlcnxlbnwwfHx8fDE3Njk5NDY5MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bacon cheeseburger"
+    },
+    {
+      "id": "chicken-strips",
+      "description": "A plate of golden chicken strips.",
+      "imageUrl": "https://images.unsplash.com/photo-1552962402-6bafde66a37c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaGlja2VuJTIwc3RyaXBzfGVufDB8fHx8MTc2OTk0NjkzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chicken strips"
+    },
+    {
+      "id": "southwest-chicken-sandwich",
+      "description": "A spicy southwest chicken sandwich.",
+      "imageUrl": "https://images.unsplash.com/photo-1666819476628-2f3afb0ca147?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2hpY2tlbiUyMHNhbmR3aWNofGVufDB8fHx8MTc2OTk0NjkzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chicken sandwich"
+    },
+    {
+      "id": "wings-bourbon-sauce",
+      "description": "Chicken wings coated in a yummy bourbon sauce.",
+      "imageUrl": "https://images.unsplash.com/photo-1645371958635-88dd6c8e1be7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjaGlja2VuJTIwd2luZ3N8ZW58MHx8fHwxNzY5OTAyMTM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "chicken wings"
+    },
+    {
+      "id": "gallery-food-1",
+      "description": "A beautifully plated dish.",
+      "imageUrl": "https://images.unsplash.com/photo-1631021967255-898a52176fea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwbGF0ZWQlMjBmb29kfGVufDB8fHx8MTc2OTg0OTgzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "plated food"
+    },
+    {
+      "id": "gallery-food-2",
+      "description": "A delicious-looking dessert.",
+      "imageUrl": "https://images.unsplash.com/photo-1646530612886-669024a15fea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxkZXNzZXJ0JTIwY2FrZXxlbnwwfHx8fDE3Njk4NDYyNzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dessert cake"
+    },
+    {
+      "id": "gallery-food-3",
+      "description": "A craft cocktail on the bar.",
+      "imageUrl": "https://images.unsplash.com/photo-1746588394961-923aeda3f158?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjcmFmdCUyMGNvY2t0YWlsfGVufDB8fHx8MTc2OTk0NjkzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "craft cocktail"
+    },
+    {
+      "id": "gallery-food-4",
+      "description": "A steaming cup of coffee.",
+      "imageUrl": "https://images.unsplash.com/photo-1611564494260-6f21b80af7ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2ZmZWUlMjBsYXR0ZXxlbnwwfHx8fDE3Njk5MTMyMzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "coffee latte"
+    },
+    {
+      "id": "gallery-vibe-1",
+      "description": "Interior of the restaurant showing cozy atmosphere.",
+      "imageUrl": "https://images.unsplash.com/photo-1667388968964-4aa652df0a9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxyZXN0YXVyYW50JTIwaW50ZXJpb3J8ZW58MHx8fHwxNzY5ODc1MDQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "restaurant interior"
+    },
+    {
+      "id": "gallery-vibe-2",
+      "description": "The bar area with a friendly bartender.",
+      "imageUrl": "https://images.unsplash.com/photo-1763771757330-3212b518e31c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxiYXIlMjBzY2VuZXxlbnwwfHx8fDE3Njk4MzEzOTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bar scene"
+    },
+    {
+      "id": "gallery-vibe-3",
+      "description": "Outdoor seating area on a sunny day.",
+      "imageUrl": "https://images.unsplash.com/photo-1629079448105-35ab3e5152d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxvdXRkb29yJTIwcGF0aW98ZW58MHx8fHwxNzY5OTE1MjgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "outdoor patio"
+    },
+    {
+      "id": "gallery-vibe-4",
+      "description": "The gift shop section of the restaurant.",
+      "imageUrl": "https://images.unsplash.com/photo-1515711660811-48832a4c6f69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxnaWZ0JTIwc2hvcHxlbnwwfHx8fDE3Njk5NDY5MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gift shop"
+    }
+  ]
 }

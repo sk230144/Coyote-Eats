@@ -1,0 +1,127 @@
+import type { MenuItem, Review, GalleryImage } from './types';
+
+export const MENU_ITEMS: MenuItem[] = [
+  {
+    id: '1',
+    name: 'Drunken Coyote Burger',
+    description: 'Our signature burger with a secret bourbon sauce, onion rings, and pepper jack cheese.',
+    price: 16.5,
+    category: 'Burgers',
+    tags: ['popular'],
+    imageId: 'drunken-coyote-burger',
+  },
+  {
+    id: '2',
+    name: 'Hamburger and Fries',
+    description: 'A classic all-American hamburger served with a side of our signature crispy fries.',
+    price: 12.0,
+    category: 'Burgers',
+    imageId: 'hamburger-and-fries',
+  },
+  {
+    id: '3',
+    name: 'Bacon Cheeseburger with Fries',
+    description: 'A juicy cheeseburger topped with extra crispy bacon, served with fries.',
+    price: 14.5,
+    category: 'Burgers',
+    tags: ['popular'],
+    imageId: 'bacon-cheeseburger',
+  },
+  {
+    id: '4',
+    name: 'Southwest Chicken Sandwich',
+    description: 'Grilled chicken breast with avocado, pepper jack cheese, and chipotle mayo on a toasted bun.',
+    price: 15.0,
+    category: 'Sandwiches',
+    imageId: 'southwest-chicken-sandwich',
+  },
+  {
+    id: '5',
+    name: 'Chicken Dante',
+    description: 'A specialty chicken dish with a creamy parmesan sauce and sun-dried tomatoes.',
+    price: 18.0,
+    category: 'Entrees',
+    imageId: 'gallery-food-1',
+  },
+  {
+    id: '6',
+    name: 'Chicken Strips',
+    description: 'Crispy, golden-brown chicken strips served with your choice of dipping sauce.',
+    price: 11.0,
+    category: 'Appetizers',
+    imageId: 'chicken-strips',
+  },
+  {
+    id: '7',
+    name: 'Wings with Bourbon Sauce',
+    description: 'A basket of our famous wings tossed in a sweet and tangy bourbon glaze.',
+    price: 13.5,
+    category: 'Appetizers',
+    tags: ['popular'],
+    imageId: 'wings-bourbon-sauce',
+  },
+  {
+    id: '8',
+    name: 'Sweet Potato Fries',
+    description: 'A generous portion of our crispy, perfectly seasoned sweet potato fries.',
+    price: 7.0,
+    category: 'Sides',
+    imageId: 'sweet-potato-fries',
+  },
+  {
+    id: '9',
+    name: 'Craft Beer',
+    description: 'A rotating selection of local and regional craft beers on tap.',
+    price: 5.0,
+    category: 'Drinks',
+    imageId: 'gallery-food-3',
+  },
+];
+
+export const REVIEWS: Review[] = [
+  {
+    id: '1',
+    author: 'Beach Bum',
+    rating: 5,
+    comment: 'An under discovered gem in the small, but lovely community of Ten Sleep. We were exploring the area and decided to go look at the town of Ten Sleep, on a Sunday, at lunchtime, we discovered this magnificent restaurant. The food was amazing!',
+  },
+  {
+    id: '2',
+    author: 'The Princess and The Troll',
+    rating: 5,
+    comment: 'Cool place …. Gift store, restaurant, and bar all in one with very friendly staff. $5 craft beers and $0.50 pool. Definitely a hidden gem. We did not eat, but the food looked really good.',
+  },
+  {
+    id: '3',
+    author: 'Dylan Thomas',
+    rating: 5,
+    comment: 'Excellent stop on the way back from Yellowstone, great food and friendly service with a very nice vibe and atmosphere. We chose to sit outside and enjoy the weather! I recommend the Chicken Dante!',
+  },
+  {
+    id: '4',
+    author: 'Jane Doe',
+    rating: 4,
+    comment: 'I had wings with yummy bourbon sauce and fries .. a one-basket meal. Service was a bit slow but friendly.',
+  },
+  {
+    id: '5',
+    author: 'John Smith',
+    rating: 5,
+    comment: 'Amazing food, service and great staff! Love this place great food service amazing great shopping love atmosphere ❤️❤️',
+  },
+];
+
+export const GALLERY_IMAGES: GalleryImage[] = [
+  { id: '1', category: 'Food & Drink', imageId: 'gallery-food-1', description: 'A beautifully plated dish.' },
+  { id: '2', category: 'Food & Drink', imageId: 'gallery-food-2', description: 'A delicious-looking dessert.' },
+  { id: '3', category: 'Food & Drink', imageId: 'gallery-food-3', description: 'A craft cocktail on the bar.' },
+  { id: '4', category: 'Food & Drink', imageId: 'gallery-food-4', description: 'A steaming cup of coffee.' },
+  { id: '5', category: 'Vibe', imageId: 'gallery-vibe-1', description: 'Interior of the restaurant showing cozy atmosphere.' },
+  { id: '6', category: 'Vibe', imageId: 'gallery-vibe-2', description: 'The bar area with a friendly bartender.' },
+  { id: '7', category: 'Vibe', imageId: 'gallery-vibe-3', description: 'Outdoor seating area on a sunny day.' },
+  { id: '8', category: 'Vibe', imageId: 'gallery-vibe-4', description: 'The gift shop section of the restaurant.' },
+  { id: '9', category: 'Food & Drink', imageId: 'drunken-coyote-burger', description: 'The famous Drunken Coyote Burger.' },
+  { id: '10', category: 'Food & Drink', imageId: 'sweet-potato-fries', description: 'Crispy Sweet Potato Fries.' },
+  { id: '11', category: 'Food & Drink', imageId: 'southwest-chicken-sandwich', description: 'Spicy Southwest Chicken Sandwich.' },
+  { id: '12', category: 'Food & Drink', imageId: 'wings-bourbon-sauce', description: 'A basket of Bourbon Wings.' },
+];
